@@ -37,7 +37,6 @@ This project makes use of the **Open Notify API** to track the current location 
 
    * Replace `MY_EMAIL` and `MY_PASSWORD` with your actual email credentials.
    * Make sure to allow access to less secure apps or use an **App Password** if using services like Gmail.
-   * Specify your email provider's SMTP address in place of `__YOUR_SMTP_ADDRESS_HERE___`.
 
 2. **Location Configuration**:
 
