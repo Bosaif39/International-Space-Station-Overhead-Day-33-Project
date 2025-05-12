@@ -2,6 +2,7 @@
 # **ISS Overhead Notification Sender**
 
 ## **Overview:**
+This is the Day 33 project from the 100 Days of Code: The Complete Python Pro Bootcamp.
 
 This is a Python-based script that checks if the International Space Station (ISS) is overhead and if it is night time in your location. If both conditions are met, it sends an email notification to let you know that the ISS is visible in the sky above you.
 
