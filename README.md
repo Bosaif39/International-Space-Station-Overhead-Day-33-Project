@@ -18,10 +18,10 @@ This project makes use of the **Open Notify API** to track the current location 
 
 ## **Features:**
 
-* **ISS Location Tracking**: Checks if the ISS is overhead within a defined 5-degree range.
-* **Nighttime Detection**: Verifies if it is night in your location based on sunrise and sunset times.
-* **Email Notification**: Sends an email notification when both conditions are true.
-* **Customizable Email Credentials**: Easily configure email settings for different email providers.
+* **ISS Location Tracking**
+* **Nighttime Detection**
+* **Email Notification** 
+* **Customizable Email Credentials** 
 
 ## **Requirements:**
 
@@ -30,13 +30,6 @@ This project makes use of the **Open Notify API** to track the current location 
 * **smtplib**: For sending emails via SMTP.
 * **datetime**: For getting the current time and checking if it is night.
 * **time**: For implementing a delay between checks.
-
-## **File Structure:**
-
-* **Main Python Script**: The Python file that runs the script.
-
-  * Make sure to replace placeholders like `MY_EMAIL`, `MY_PASSWORD`, and SMTP server address.
-  * The script continuously checks for the ISS and sends an email if the conditions are met.
 
 ## **Instructions:**
 
@@ -50,24 +43,4 @@ This project makes use of the **Open Notify API** to track the current location 
 
    * Replace `MY_LAT` and `MY_LONG` with your geographical coordinates (latitude and longitude).
    * These values determine the location for checking if the ISS is overhead.
-
-3. **Run the Script**:
-
-   * Run the Python script, and it will continuously monitor the ISS position and check if it’s night time.
-   * If the ISS is overhead and it’s night, you’ll receive an email notification with the message: `The ISS is above you in the sky.`
-
-## **How to Run:**
-
-1. Ensure you have Python 3.x installed.
-2. Install the required libraries by running:
-
-   ```bash
-   pip install requests
-   ```
-3. Update the script with your email credentials and geographical location.
-4. Run the Python script:
-
-   ```bash
-   python iss_notification.py
-   ```
 
