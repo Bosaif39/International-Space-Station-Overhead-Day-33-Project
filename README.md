@@ -23,13 +23,6 @@ This project makes use of the **Open Notify API** to track the current location 
 * **Email Notification** 
 * **Customizable Email Credentials** 
 
-## **Requirements:**
-
-* **Python 3.x**
-* **requests**: For making HTTP requests to the APIs.
-* **smtplib**: For sending emails via SMTP.
-* **datetime**: For getting the current time and checking if it is night.
-* **time**: For implementing a delay between checks.
 
 ## **Instructions:**
 
@@ -42,4 +35,13 @@ This project makes use of the **Open Notify API** to track the current location 
 
    * Replace `MY_LAT` and `MY_LONG` with your geographical coordinates (latitude and longitude).
    * These values determine the location for checking if the ISS is overhead.
+
+
+## **Requirements:**
+
+* **Python 3.x**
+* `requests`: For making HTTP requests to the APIs.
+* `smtplib`: For sending emails via SMTP.
+* `datetime`: For getting the current time and checking if it is night.
+* `time`: For implementing a delay between checks.
 
